@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,3 +86,12 @@ backup:
   theme: hexo-theme-next
   repository:
     github: git@github.com:zhoutl1106/hexo_blog.git,master
+
+disqus:
+  enable: true
+  shortname: myblog-eczrat9tfm
+  count: true
+  lazyload: false
+ 
+disqus_shortname: myblog-eczrat9tfm
+comments: true
