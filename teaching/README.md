@@ -1,1 +1,13 @@
-#Teaching
+# Teaching
+
+This is a page for teaching
+<p>
+    <img src="/teaching/IMG_8695.jpg" align="left" width="240" hspace="5" vspace="5">
+    HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局 <br>
+</p>
+
+
+
+![](/teaching/c1.jpg =320x)
+![](/teaching/c2.jpg =320x)
+![](/teaching/c3.jpg =320x)

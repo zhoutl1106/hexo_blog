@@ -12,42 +12,45 @@ module.exports = {
 					{ text: 'Teaching', link: '/teaching/' }
 				]
 			},
+			{ text: 'CV', link: '/cv/' },
 			{ text: 'LinkedIn', link: 'https://www.linkedin.com/in/tianli-zhou-65510477/' },
 			{ text: 'Github', link: 'https://www.github.com/zhoutl1106' },
 		], 
 		sidebar: {
 			'/publication/': [
-						""
+						"",
+						"zerasure",
+						"dpg",
+						"bitcoin",
+						"electronic_components",
+						"windows_programming"
 						],
 				"/project/":[
-						""
+						"",
+						"personal_reliable_storage_system",
+						"color_selection_machine",
+						"sig",
+						"airforce",
+						"rov",
+						"robot",
+						"mahjong",
+						"poker",
+						"restaurant",
+						"rotate",
+						"piano"
 						],
 				"/teaching/":[
+					""
 							],
 			},
-		sidebarDepth: 1,
+		sidebarDepth: 0,
 		lastUpdated: 'Last Updated'
 
 	},
-	chainWebpack: (config, isServer) => {
-		config.module
-		  .rule('pdfs')
-		  .test(/\.pdf$/)
-		  .use('file-loader')
-			.loader('file-loader')
-		  .options({
-			name: `[path][name].[ext]`
-		  });
-		
-		config.module.rule('vue')
-		  .uses.store
-		  .get('vue-loader').store
-		  .get('options').transformAssetUrls = {
-			video: ['src', 'poster'],
-			source: 'src',
-			img: 'src',
-			image: ['xlink:href', 'href'],
-			a: 'href'
-		  };
-	  },
+		markdown: {
+    linkify: true,
+    extendMarkdown: md => {
+      md.use(require('markdown-it-imsize'));
+    },
+  },
 }

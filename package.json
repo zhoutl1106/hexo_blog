@@ -1,5 +1,8 @@
 {
 	"scripts": {
-	    "deploy": "bash deploy.sh"
-	  }
+		"deploy": "bash deploy.sh"
+	},
+	"devDependencies": {
+		"markdown-it-imsize": "^2.0.1"
+	}
 }
