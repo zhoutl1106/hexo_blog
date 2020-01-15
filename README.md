@@ -5,9 +5,9 @@ actionText: CV →
 actionLink: /cv/
 features:
 - title: Coding
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+  details: Best practise to manipulate computer, building utilities and applications made me happy. Started since elementary school but won't stop with Ph.D. in CE.
 - title: Electronic DIY
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+  details: As B.Eng in EE, building micro-controller based electronic devices is not only fun, but also making life colorful.
 - title: Crafting
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  details: Re-modeling, 3D printing, woodworking. Combined with coding and DIY yields great finishing and aesthetic looking.
 ---

@@ -13,6 +13,7 @@ module.exports = {
 				]
 			},
 			{ text: 'CV', link: '/cv/' },
+			{ text: 'About', link: '/about/' },
 			{ text: 'LinkedIn', link: 'https://www.linkedin.com/in/tianli-zhou-65510477/' },
 			{ text: 'Github', link: 'https://www.github.com/zhoutl1106' },
 		], 
