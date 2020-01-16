@@ -2,7 +2,7 @@
 
 This is ROV project.
 
-![img](/auv/SAM_1660.JPG =320x)
+![](/auv/SAM_1660.JPG =320x)
 ![](/auv/SAM_1663.JPG =320x)
 ![](/auv/SAM_1665.JPG =320x)
 ![](/auv/AUV.JPG =320x)

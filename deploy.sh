@@ -12,9 +12,9 @@ cd .vuepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
-git add -A
-git commit -m 'deploy'
-git push
+sudo git add -A
+sudo git commit -m 'deploy'
+sudo git push
 ssh -t root@tzhou.net '/root/updateBlog.sh'
 
 # 如果发布到 https://<USERNAME>.github.io

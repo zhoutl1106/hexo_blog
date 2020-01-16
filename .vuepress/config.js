@@ -1,3 +1,8 @@
+const dirTree = require('directory-tree');
+const path = require('path');
+
+const projets = dirTree(path.join(__dirname, '../project'), {extensions:/\.md/});
+const publishes = dirTree(path.join(__dirname, '../publication'), {extensions:/\.md/});
 module.exports = {
 	title: 'Coding and DIY enthusiast',
 	description: 'Tianli\'s Blog',
@@ -18,31 +23,32 @@ module.exports = {
 			{ text: 'Github', link: 'https://www.github.com/zhoutl1106' },
 		], 
 		sidebar: {
-			'/publication/': [
-						"",
-						"zerasure",
-						"dpg",
-						"bitcoin",
-						"electronic_components",
-						"windows_programming"
-						],
-				"/project/":[
-						"",
-						"personal_reliable_storage_system",
-						"color_selection_machine",
-						"sig",
-						"airforce",
-						"rov",
-						"robot",
-						"mahjong",
-						"poker",
-						"restaurant",
-						"rotate",
-						"piano"
-						],
-				"/teaching/":[
-					""
-							],
+			'/project/': projets.children.map(children => path.parse(children.name).name !== 'README' ? path.parse(children.name).name : '' ),
+			'/publication/': publishes.children.map(children => path.parse(children.name).name !== 'README' ? path.parse(children.name).name : '' ),
+			// '/publication/': [
+			// 			"",
+			// 			"zerasure",
+			// 			"dpg",
+			// 			"bitcoin",
+			// 			"windows_programming"
+			// 			],
+			// 	"/project/":[
+			// 			"",
+			// 			"personal_reliable_storage_system",
+			// 			"color_selection_machine",
+			// 			"sig",
+			// 			"airforce",
+			// 			"rov",
+			// 			"robot",
+			// 			"mahjong",
+			// 			"poker",
+			// 			"restaurant",
+			// 			"rotate",
+			// 			"piano"
+			// 			],
+			// 	"/teaching/":[
+			// 		""
+			// 				],
 			},
 		sidebarDepth: 0,
 		lastUpdated: 'Last Updated'

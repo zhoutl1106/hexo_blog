@@ -4,5 +4,9 @@
 	},
 	"devDependencies": {
 		"markdown-it-imsize": "^2.0.1"
+	},
+	"dependencies": {
+		"directory-tree": "^2.2.4",
+		"glob": "^7.1.6"
 	}
 }
