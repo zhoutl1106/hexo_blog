@@ -1,7 +1,0 @@
-# Delayed Parity Generation in MDS Storage Codes
-
-Publisher Link: [https://ieeexplore.ieee.org/document/8437700]
-
-## Abstract
-
-We propose a delayed parity generation technique for maximum distance separable (MDS) storage codes, for two possible applications: the first is to improve the write-speed during data intake where only a subset of the parities are initially produced and stored into the system, and the rest can be produced from the stored data during a later time of lower system load; the second is to provide better adaptivity, where a lower number of parities can be chosen initially in a storage system, and more parities can be produced when the existing ones are not sufficient to guarantee the needed reliability or performance. In both applications, it is important to reduce the data access as much as possible during the delayed parity generation procedure. For this purpose, we first identify the fundamental limit for delayed parity generation through a connection to the well-known multicast network coding problem, then provide an explicit and low-complexity code transformation that is applicable on any MDS codes to obtain optimal codes. The problem we consider is closely related to the regenerating code problem, however the proposed codes are much simpler and have a much smaller subpacketization factor than regenerating codes, and thus our result in fact shows that blindly adopting regenerating codes in these two settings is unnecessary and wasteful.

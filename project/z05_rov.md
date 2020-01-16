@@ -20,7 +20,7 @@ The vehicle is remoted through underwater acoustic technology, especially OFDM b
 
 <div class="video-wrapper">
 We were very excited when we released the safe rope for the first time.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vihz1_GRA7U?start=13" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/clF_Sd0PtJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 It also has the ability to spinning around a fix point, ideal for tasks like underwater pipe welding.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EMog-MxeGQc?start=13" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wBtjgDeeUjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

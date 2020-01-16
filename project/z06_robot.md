@@ -16,6 +16,7 @@ The target task is to transfer 3 wood blocks on the field to the cage, and these
 ![](/robot/r7.jpg =320x)
 
 Testing video:
+
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qo_OJltC35w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NfzL2GLjvOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
